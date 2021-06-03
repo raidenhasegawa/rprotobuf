@@ -3526,9 +3526,11 @@ if test x"${PKGCONFIG}" == x"yes"; then
     if pkg-config --exists protobuf; then
         protobuf_cxxflags=`pkg-config --cflags protobuf`
         protobuf_libs=`pkg-config --libs protobuf`
+	echo good, I'm here
     else
         protobuf_cxxflags=""
         protobuf_libs="-lprotobuf"
+	echo bad, I'm not there
     fi
 else
     # Add a reasonable default of -lprotobuf if we don't have pkg-config
