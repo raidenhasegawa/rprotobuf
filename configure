@@ -3860,7 +3860,7 @@ done
 as_ac_Header=`$as_echo "ac_cv_header_$protobuf_common_header" | $as_tr_sh`
 ac_fn_cxx_check_header_mongrel "$LINENO" "$protobuf_common_header" "$as_ac_Header" "$ac_includes_default"
 #if eval test \"x\$"$as_ac_Header"\" = x"yes"; then :
-if 1=1; then :
+if eval test 1=1; then :
 
 else
 
