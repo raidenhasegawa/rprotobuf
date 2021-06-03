@@ -67,7 +67,7 @@ fi
 #PROTOBUF_VERSION="2.2.0"
 #PKG_CHECK_MODULES(ProtoBuf, protobuf >= 2.2.0, , AC_MSG_ERROR(Protobuf version 2.2.0 required))
 # what are the flags
-echo ${protobuf_cxx_flags}
+echo ${protobuf_cxxflags}
 ## check for header and ability to link
 ## first for headers Debian has in libprotobuf-dev
 protobuf_common_header=google/protobuf/stubs/common.h
