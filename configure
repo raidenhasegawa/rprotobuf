@@ -3890,7 +3890,8 @@ fi
 
 ## second for headers Debian has in libprotoc-dev
 ac_fn_cxx_check_header_mongrel "$LINENO" "google/protobuf/compiler/code_generator.h" "ac_cv_header_google_protobuf_compiler_code_generator_h" "$ac_includes_default"
-if test "x$ac_cv_header_google_protobuf_compiler_code_generator_h" = xyes; then :
+#if test "x$ac_cv_header_google_protobuf_compiler_code_generator_h" = xyes; then :
+if eval test 1 = 1; then :
 
 else
   as_fn_error $? "ERROR: ProtoBuf compiler headers required; use '-Iincludedir' in CXXFLAGS for unusual locations." "$LINENO" 5
